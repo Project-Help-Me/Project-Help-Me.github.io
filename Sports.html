@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<title>Sports</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('sport.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("img_parallax2.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("img_parallax3.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+#googleMap {
+    width: 100%;
+    height: 400px;
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+}
+
+/* Turn off parallax scrolling for tablets and mobiles */
+@media only screen and (max-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+<body>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-opacity w3-display-container">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity">PROJECT <span class="w3-hide-small">HELP</span> ME</span>
+  </div>
+</div>
+
+<ul>
+  <li><a class="active" href="helplessproject.html">Home</a></li>
+  
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Education</a>
+    <div class="dropdown-content">
+	  <a href="research.html">Continuing Education</a>
+	  <a href="research3.html">Jobs w/ Education</a>
+	 
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Hobbies</a>
+    <div class="dropdown-content">
+	  <a href="sports.html">Sports</a>
+      <a href="art.html">Art</a>
+	  <a href="music.html">Music</a>
+	
+  <li><a class="active" href="healthpage.html">Health</a></li>	
+  
+  <li><a class="active" href="http://projecthelpme.proboards.com/">Forum</a></li>
+ 
+ <li><a class="active" href="location.html">Locations</a></li>  
+	  
+    </div>
+  </li>
+</ul>
+
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h1 class="w3-center">SPORTS</h1>
+  <p class="w3-center"><em>Winners never quit and quitters never win.  
+  </em></p>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-center">
+	  <p><b>Have you ever been discourage to pursue something because of your age?</b></p>
+	  <p>You&#39;re not alone! Don&#39;t feel like you can&#39;t do anything because you&#39;re far ahead in life. Many athletes started later in their career. Alex Morgan, Junior Don Santos, and Dikeme Mutombo are all people who started their athletic careers at a late entry. Although, they started late they didn&#39;t let that set them back.</p>
+	  <h2>Alex Morgan </h2>
+	  <p>Alex Morgan did not begin playing soccer until the age of 13, but she took to the game quickly and is now the premier striker for the USWNT. From then she became an Olympic gold medalist and FIFA Women's World Cup champion.</p>
+	  <img src="http://www.espn.com/photo/2015/0601/mag_morgan01_RW_800x450.jpg" class="w3-hover-opacity" alt="Photo of Me" style="width="224" height="244"; align=bottom"><img src="http://pthumb.lisimg.com/image/8840414/280full.jpg" class="w3-hover-opacity" alt="Photo of Me" style="width="224" height="244"; align=bottom">
+
+	  
+	  <h2>Junior Don Santos</h2>
+	  <p>Don Santos is a Brazilian mixed martial artist and former UFC Heavyweight Champion.He first began participating in martial arts at the age of 21, yet went professional within a year and he has since become one of the top MMA fighters in the world.</p>
+	  <img src="http://www.sherdog.com/image_crop.php?image=http://www.origin.sherdog.com/_images/fighter/20140505112122_1MG_0455.JPG&&width=200&&height=300" class="w3-hover-opacity" alt="Photo of Me" style="width="224" height="244"; align=bottom"><img src="https://usatmmajunkie.files.wordpress.com/2013/07/junior-dos-santos-14.jpg" class="w3-hover-opacity" alt="Photo of Me" style="width="224" height="244"; align=bottom">
+
+	 
+	  <h2>Dikembe Mutombo</h2>
+	  <p>Mutombo is a Congolese American retired professional basketball player who played 18 seasons in the National Basketball Association (NBA). He did not begin playing competitive basketball until he became a student at Georgetown University.</p>
+	  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Mutombo.jpg" class="w3-hover-opacity" alt="Photo of Me" style="width="224" height="244"; align=bottom"><img src="http://www4.pictures.zimbio.com/gi/Dikembe+Mutombo+Unicef+SnowFlake+Ball+-Lge5ztwInDl.jpg" class="w3-hover-opacity" alt="Photo of Me" style="width="224" height="244"; align=bottom">
+	  </p>
+	<h2>Sports Tutorials</h2>
+
+	  
+	</div>
+  </div>
+</div>
+
+</script>
+
+<center><div class="video">
+<iframe width="410" height="315"
+src="https://www.youtube.com/embed/Ic7oOEJRTH4">
+</iframe>
+<iframe width="410" height="315"
+src="https://www.youtube.com/embed/ke4XcnbulT0">
+</iframe>
+<iframe width="410" height="315"
+src="https://www.youtube.com/embed/3Cjxfu1AcQA">
+</iframe>
+</div></center>
+<footer class="w3-center w3-dark-grey w3-padding-48 w3-hover-black">
+  <p>Sources</p> 
+  <p>Image 1: VICE/Sports, VICE, United States/August 08, 2016</p>
+  <p>Image 2: espnW/What makes U.S. forward Alex Morgan human/August 08, 2016
+  <p>Image 3: Alex Morgan Listal RSS/Alex Morgan/August 08, 2016</p>
+  <p>Image 4: Sherdog/Junior/August 08, 2016</p>
+  <p>Image 5: UFC Fight Club Forum/UFC Fight Night: Dos Santos vs. Rothwell/August 08, 2016</p>
+  <p>Image 6: Wikipedia/Dikembe Mutombo/August 08, 2016</p>
+  <p>Image 7: Like Success/Quotes by Dikembe Mutombo/August 08, 2016</p>
+  </footer>
+</body>
+</html>

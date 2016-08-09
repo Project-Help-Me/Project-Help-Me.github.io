@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<title>Workout</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('http://www.riskmanagement365.com/wp-content/uploads/2014/04/Health-is-wealth.jpg');
+    min-height: 100%;
+}
+/*
+Second image (Portfolio) 
+.bgimg-2 {
+    background-image: url("img_parallax2.jpg");
+    min-height: 400px;
+}
+
+ Third image (Contact) 
+.bgimg-3 {
+    background-image: url("img_parallax3.jpg");
+    min-height: 400px;
+}
+*/
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+#googleMap {
+    width: 100%;
+    height: 400px;
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+}
+
+/* Turn off parallax scrolling for tablets and mobiles */
+@media only screen and (max-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+<body>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-opacity w3-display-container">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity">PROJECT <span class="w3-hide-small">HELP</span> ME</span>
+  </div>
+</div>
+
+<ul>
+  <li><a class="active" href="helplessproject.html">Home</a></li>
+  
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Education</a>
+    <div class="dropdown-content">
+	  <a href="#">Continuing Education</a>
+      <a href="#">Homework/Study</a>
+	  <a href="#">Jobs w/ Education</a>
+	  
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Hobbies</a>
+    <div class="dropdown-content">
+	  <a href="#">Sports</a>
+      <a href="#">Art</a>
+	  <a href="#">Music</a>
+	
+  <li><a class="active" href="healthpage.html">Health</a></li>
+  
+  <li><a class="active" href="http://projecthelpme.proboards.com/">Forum</a></li>	
+	    
+  <li><a class="active" href="location.html">Locations</a></li> 
+	    
+	  
+    </div>
+  </li>
+</ul>
+
+
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">Workout Against Time!</h3>
+  <p class="w3-center"><em> HOW FITTING A WORKOUT INTO YOUR BUSY SCHEDULE IS POSSIBLE.   
+  </em></p>
+  <p> Time. Since the beginning we have been racing against time. Trying to beat time. But time always seems to run out. Days go by and there is just never enough time. "I'll do it tomorrow," you say. But tomorrow comes and once again, there is not enough time. Once again, you find yourself saying "I'll do it tomorrow." You've fallen into this endless cycle of waiting for time to come. But it never will. You have to make time. Listed below are some tips and tricks to help yoummake time to stay fit. </p>
+  
+<!-- Second Parallax Image with Portfolio Text 
+<div class="bgimg-2 w3-display-container">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-grey w3-wide">HELP WE OFFER</span>
+  </div>
+</div>
+-->
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-tiny">
+  <p class="w3-center"><em>HERE ARE SOME OF OUR FAVORITE TIPS AND TRICKS!</em></p><br>
+</div>
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class=" w3-content w3-container w3-padding-tiny">
+ <div class="w3-center">
+<div class="w3-col m6 w3-content w3-container w3-yellow ">
+          <p><b> WORKING PARENTS NEED TO WORKOUT TOO!</b></p><br>
+</div>
+<style>
+.w3-padding-top {
+padding-top:8x;
+}
+.w3-padding-left {
+padding-left:8px;
+}
+.w3-padding-right {
+padding-right:8px;
+}
+.w3-padding-bottom {
+padding-bottom:8px;
+}
+.w3-padding-bottom2 {
+padding-bottom:16px
+}
+p {
+text-align: justify;
+}
+</style>
+
+<div class="w3-col m6 w3-padding-left w3-right w3-padding-bottom">
+      <img src="http://2.bp.blogspot.com/-ayZtOhV3tEY/URkas5eRiJI/AAAAAAAAAX8/nWgeuq9xMOk/s1600/deena-kastor-thumb%255B1%255D.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover_opacity" alt="Kale, Pineapple and Ginger Detox Drink">
+    
+<div class="w3-padding-left">
+          <p>Click <a href= "http://qz.com/242087/the-complete-guide-to-working-out-being-active-and-being-a-working-parent/">HERE</a> for more information on how you can fit working out into your busy schedule.</p>
+
+    </div>
+</div>
+</div>
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 ">
+      <p align="left"> Balancing a career, children, and personal time can prove to be a circus juggling act. Attempt to include time for physical activity, and everything comes crashing down. But, there are a select few who've mastered this act. Here are some of their tips: </p>
+</div>
+<div class="w3-col m6 w3-left">
+<p >Make it a priority. Exercise is proven to improve sleep and mental health, as well as the ability to ward off disease and prevent injury. There are also studies that show that exercising before work increases productivity. </li>
+<p >Plan ahead and commit.</li>
+<p >Pick your location. </li>
+<p >Schedule your time</li>
+<p >Be efficient</li>
+<p >1 bunch of mint (about 1/2 cup)</li>
+</div>
+</div>
+  </div>
+</div>
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class=" w3-content w3-container w3-padding-tiny">
+ <div class="w3-center">
+<div class="w3-col m6 w3-content w3-container w3-yellow ">
+          <p><b>The Workaholics Guide to Deskercise</b></p><br>
+</div>
+<style>
+.w3-padding-top {
+padding-top:8x;
+}
+.w3-padding-left {
+padding-left:8px;
+}
+.w3-padding-right {
+padding-right:8px;
+}
+.w3-padding-bottom {
+padding-bottom:8px;
+}
+.w3-padding-bottom2 {
+padding-bottom:16px
+}
+p {
+text-align: justify;
+}
+</style>
+
+<div class="w3-col m6 w3-padding-left w3-right w3-padding-bottom">
+      <img src="http://blogs.vault.com/media/2936331/deskercise_h.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover_opacity" alt="Kale, Pineapple and Ginger Detox Drink">
+    </div>
+</div>
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-padding-bottom">
+      <p align="left">Stuck at work all day? Why not spice things up a bit and do some deskercise. Yeah. That's right. Deskercise. Here some of our fave Deskercises:</p>
+</div>
+<div class="w3-col  m6 w3-left ">
+ 
+<p>The Twinkle Toe. Speedily tap your toes on the floor under your desk. To take it up a notch, stand in front of a small trashcan and lift those legs up to tap the toes on its edge, alternating feet.</li>
+<p>Take the stairs. 'Nuf said.</li>
+<p> Celebratory Split Squat Jumps. Figure out the solution to a major problem at work? Celebrate with the split squat jump. With both feet hip width apart, step the left leg back two feet and balance on the ball of the foot. Lower into a lunge and then burst upwards in an explosion of celebration. While in the air, switch feet so that the left foot is planted in front and the right leg is behind. Repeat 10-12 times for each side.</li>
+<p>The Move and Shaker. Release stress and ignite the dance floor with a quick bout of seated dancing.</li>
+<p>The Knuckle Sandwich. By far the best stress reliever on this list. Stand and throw a few jabs, hooks, ad uppercuts as fast as you can. Continue for a minute or longer to blow off steam and tone the arms, chest, and core. 
+</div>
+<div class="w3-right w3-col m6 w3-padding-left">
+          <p>Want to know more about deskercising? Click <a href="http://greatist.com/fitness/deskercise-33-ways-exercise-work">HERE!</a></p>
+
+    </div>
+</div>
+  </div>
+</div>
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-closebtn w3-hover-red w3-text-white w3-xxxlarge w3-container w3-display-topright">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" style="max-width:100%">
+  </div>
+</div>
+
+  
+<!-- Footer -->
+<footer class="w3-center w3-dark-grey w3-padding-48 w3-hover-black">
+  <p>Sources:</p>
+<p> Image 1: Risk Management 365/Health Is Wealth/August 08,2016</p>
+<p> Image 2: Footzone of Bend, Oregon/Stroller Strong: Tips For Running With a Jogging Stroller/August 08, 2016</p>
+<p> Image 3: Vault/Move Over Jazzercise, It's Time to Deskercise!/August 08,2016</p>
+</footer>
+ 
+<!-- Add Google Maps -->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+
+function initialize() {
+var mapProp = {
+  center:myCenter,
+  zoom:12,
+  scrollwheel:false,
+  draggable:false,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+  position:myCenter,
+  });
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-navbar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+    }
+}
+</script>
+
+</body>
+</html>
+
+
+
+
